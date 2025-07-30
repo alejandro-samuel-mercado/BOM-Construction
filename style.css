@@ -441,15 +441,12 @@ ol {
 	width: 100%;
 	top: 0;
 	z-index: 50;
-	
 }
 
 .logo-area {
 	display:flex ;
 	display: inline-block;
-	background: #121212;
-	
-max-height: 10px
+	background: #121212
 	
 }
 
@@ -457,13 +454,11 @@ max-height: 10px
 
 .nav-switch {
 	display: none;
-	
 }
 
 .nav-menu {
 	display: inline-block;
 	float: right;
-	
 }
 
 .nav-menu ul {
@@ -669,7 +664,6 @@ max-height: 10px
 
 .owl-item.active .slide-content {
 	opacity: 1;
-	
 }
 
 /*----------------------------------------*/
@@ -686,7 +680,6 @@ max-height: 10px
 	border-width:3em;
 	border-radius: 15px;
 	border: solid 15px;
-
 }
 
 .service-box .sb-icon {
@@ -718,7 +711,6 @@ max-height: 10px
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-
 
 .service-box .sb-icon::after {
 	content: "";
@@ -903,7 +895,6 @@ max-height: 10px
 .projects-slider {
 	padding: 0 40px;
 	margin-top: 60px;
-	
 }
 
 .projects-slider .single-project {
@@ -917,7 +908,6 @@ max-height: 10px
 	    transform: translateX(0);
 	-webkit-transform: translateX(0);
 	opacity: 1;
-	margin-left: 60px;
 }
 
 .projects-slider .single-project .project-content {
@@ -1254,7 +1244,7 @@ max-height: 10px
 /*----------------------------------------*/
 /*  Service page CSS
 /*----------------------------------------*/
-.-slider {
+.service-slider {
 	position: relative;
 }
 
@@ -1266,7 +1256,6 @@ max-height: 10px
 	top: 0;
 	display: -ms-grid;
 	display: grid;
-
 }
 
 .service-slider .owl-dots {
@@ -1821,7 +1810,7 @@ max-height: 10px
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
-		width: 100%;
+	
 	}
 	.slide-content {
 		margin-left: 170px;
@@ -1961,7 +1950,6 @@ max-height: 10px
 		top: 100%;
 		margin-top: 11px;
 		display: none;
-		
 	}
 	.nav-menu ul li a {
 		display: block;
@@ -2076,14 +2064,12 @@ max-height: 10px
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
-
 	.logo-area {
-		width: 100%;
+		
 	}
 	.header-area {
 		background: #121212;
-		padding-right: 1px;
-	
+		padding-right: 66px;
 	}
 	.nav-menu {
 		width: 100%;

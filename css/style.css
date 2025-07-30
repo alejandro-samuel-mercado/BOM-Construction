@@ -436,7 +436,7 @@ ol {
 /*----------------------------------------*/
 .header-area {
 	position: absolute;
-	width:100%;
+	width: 100%;
 	top: 0;
 	z-index: 50;
 }
@@ -463,7 +463,6 @@ ol {
 
 .nav-switch {
 	display: none;
-	margin-right: 1px;
 }
 
 .nav-menu {
@@ -687,7 +686,6 @@ ol {
 /*----------------------------------------*/
 .service-box {
 	margin-bottom: 10px;
-
 }
 
 .service-box .sb-icon {
@@ -780,7 +778,6 @@ ol {
 	top: 0;
 	background: #222222;
 	z-index: 2;
-
 }
 
 .cta-section .cta-image-box {
@@ -791,12 +788,9 @@ ol {
 	background-image: url("../img/cta-img.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: -100px;
-	
 }
 
 .cta-section .container {
-	margin: 50px;
 	position: relative;
 	z-index: 9;
 }
@@ -877,10 +871,6 @@ ol {
 	background: #baff00;
 }
 
-.Baldo{
-	font-size: 20px;
-}
-
 /*----------------------------------------*/
 /*  Projects Section CSS
 /*----------------------------------------*/
@@ -910,17 +900,12 @@ ol {
 
 .projects-slider {
 	padding: 0 40px;
-	
-	margin-left:10px;	
-	margin-right: 30px;
-	justify-content:center ;
-	height: 100%;
-	width:100%;
-
+	margin-top: 60px;
 }
 
 .projects-slider .single-project {
-
+	height: 550px;
+	width: 100%;
 	background: #333;
 	-o-transition: .8s;
 	transition: .8s;
@@ -928,22 +913,17 @@ ol {
 	-ms-transform: translateX(0);
 	    transform: translateX(0);
 	-webkit-transform: translateX(0);
-	opacity: 5;
-	border-radius: 40px;
-	
-	
+	opacity: 1;
 }
 
 .projects-slider .single-project .project-content {
-	
 	padding: 50px;
-	
+	height: 100%;
 	background: rgba(13, 13, 13, 0.5);
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
-	opacity: 20;
-	border-radius: 40px;
+	opacity: 0;
 }
 
 .projects-slider .single-project .project-content h2 {
@@ -981,13 +961,12 @@ ol {
 	transition: all 0.4s ease 0s;
 }
 
-
 .projects-slider .single-project:hover .project-content {
 	opacity: 1;
 }
 
-.projects-slider .single-project:hover  .project-content h2,
-.projects-slider .single-project:hover  .project-content p {
+.projects-slider .single-project:hover .project-content h2,
+.projects-slider .single-project:hover .project-content p {
 	top: 0;
 }
 
@@ -1006,7 +985,6 @@ ol {
 	text-align: right;
 	max-width: 1170px;
 	margin: 40px auto 0;
-	
 }
 
 .projects-slider .owl-nav .owl-prev,
@@ -1064,7 +1042,7 @@ ol {
 	transition: all 0.4s;
 }
 
-.client-slider .single-brand a:focus img {
+.client-slider .single-brand a:hover img {
 	opacity: 1;
 }
 
@@ -1076,18 +1054,14 @@ ol {
 	padding-bottom: 10px;
 	border-top: 1px solid #c8c8c8;
 	position: relative;
-	background: #000000;
-	color:white;
 }
 
 .footer-section .copyright {
-	width: 100%;
 	position: absolute;
 	top: 50%;
-	margin-top: 70px;
-	text-align: center;
-	color: white;
-	background: #000000;
+	margin-top: -12px;
+	left: 60px;
+	color: #737373;
 }
 
 .footer-section .footer-social {
@@ -1102,7 +1076,6 @@ ol {
 
 .footer-item ul {
 	list-style: none;
-	
 }
 
 .footer-item ul li {
@@ -1114,7 +1087,7 @@ ol {
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 500;
-	color: rgb(112, 107, 107);
+	color: #222222;
 	padding: 0 80px;
 }
 
@@ -1277,7 +1250,6 @@ ol {
 /*----------------------------------------*/
 .service-slider {
 	position: relative;
-
 }
 
 .service-slider .owl-controls {
@@ -1843,10 +1815,8 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
 		padding: 5px 5px 5px;
-		width: 100px;
 	}
 	.slide-content {
-		width: 100%;
 		margin-left: 170px;
 		margin-bottom: -35px;
 		padding-left: 120px;
@@ -1941,11 +1911,12 @@ ol {
 	.footer-section .copyright {
 		position: relative;
 		width: 100%;
+		max-width: 720px;
 		margin: 40px auto 0;
 		left: 0;
 		top: 0;
 		margin-bottom: -50px;
-	
+		padding-left: 15px;
 	}
 }
 
@@ -2082,12 +2053,12 @@ ol {
 	.footer-section .copyright {
 		position: relative;
 		width: 100%;
-	
+		max-width: 720px;
 		margin: 40px auto 0;
 		left: 0;
 		top: 0;
 		margin-bottom: -50px;
-	
+		padding-left: 15px;
 		text-align: center;
 	}
 	.footer-item {
@@ -2099,11 +2070,10 @@ ol {
 @media only screen and (max-width: 479px) {
 	.logo-area {
 		padding: 5px 5px 5px;
-		width: 50px;
 	}
 	.header-area {
 		background: #121212;
-		padding-right: -66px;
+		padding-right: 66px;
 	}
 	.nav-menu {
 		width: 100%;
@@ -2144,8 +2114,7 @@ ol {
 	h1,
 	.text-son {
 		
-		margin: -22px;
-		padding-right: 25%;
+		margin: 20px;
 	}
 
 }
@@ -2156,7 +2125,7 @@ ol {
 	#us {
 		text-align: center;
 		justify-content: center;
-		padding: 3px
+		padding: 20px
 	}
 
 }
@@ -2166,7 +2135,7 @@ ol {
 	.ts-item {
 		text-align: center;
 		justify-content: center;
-		padding:3px
+		padding: 20px
 	}
 
 }
@@ -2176,7 +2145,7 @@ ol {
 	#palo, #pol {
 		text-align: center;
 		justify-content: center;
-		padding: 3px
+		padding: 20px
 	}
 
 }
